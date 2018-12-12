@@ -6,11 +6,11 @@
 */
 
 body {
-  max-width: 960px;
+  max-width: 1440px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -33,9 +33,12 @@ b, strong, optgroup {
 }
 
 h1 {
-  margin: 25px 0;
+  margin: 64px 0;
   font-size: 4.5em;
   font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+
+
 }
 
 h2 {
@@ -56,7 +59,7 @@ h4 {
 }
 
 h5 {
-  margin: 20px 0;
+  margin: 25px 0;
   font-size: 1.6em;
 }
 
@@ -66,7 +69,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Arial, sans-serif;
   line-height: 1;
 }
 
@@ -93,7 +96,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
+  width: 1200px;
   max-width: 100%;
 }
 
@@ -221,7 +224,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
+  width: 1400px;
   height: 350px;
   background: url("../img/header-bg.jpeg");
   background-size: cover;
@@ -292,6 +295,8 @@ button {
   background-color: #d9d9d9;
 }
 
+
+}
 
 /**
 * honey-pot
