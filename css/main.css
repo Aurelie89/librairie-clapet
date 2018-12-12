@@ -445,7 +445,7 @@ button {
 * single
 */
 .page-single {
-  text-align: justify;
+  text-align: left;
 }
 
 .page-single__header {
