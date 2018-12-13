@@ -205,6 +205,62 @@ button {
   font-size: 1.6em;
 }
 
+.Une-nuit-le-jeune-M {
+  width: 600px;
+  height: 87px;
+  font-family: WorkSans;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.Il-fait-une-dcouver {
+  width: 600px;
+  height: 160px;
+  text-align: justify;
+  color: #1a1a1a;
+}
+
+.Jim-Lynch-est-un-im {
+  width: 584px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 200;
+  color: #e8a27d;
+}
+
+.Christine-Ferniot-- {
+  font-family: WorkSans;
+  font-size: 16px;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+.Une-histoire-poigna {
+  width: 584px;
+  height: 87px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #d9926c;
+}
+
+.Entertainment-Weekly {
+  width: 600px;
+  height: 19px;
+  font-family: WorkSans;
+  font-size: 16px;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+.Jim-Lynch-est-n-en {
+  width: 600px;
+  height: 160px;
+  font-family: WorkSans;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+
 .full-width {
   display: block;
   width: 100%;
