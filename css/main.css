@@ -8,16 +8,19 @@
 body {
   max-width: 1440px;
   margin: auto;
-  border-bottom: 5px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   padding-bottom: 75px;
   font-family: Montserrat, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
+  text-align: center;
+  font-size :1.5em;
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1.2;
+  line-height: 1;
 }
 
 li {
@@ -43,8 +46,9 @@ h1 {
 
 h2 {
   margin: 25px 0;
-  font-size: 3.5em;
-  font-weight: 200;
+  font-size: 4.5em;
+  font-weight: 300;
+  font size : 64px;
 }
 
 h3 {
@@ -202,8 +206,10 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 3.6em;
+  text-align : justify;
 }
+
 
 .Une-nuit-le-jeune-M {
   width: 600px;
@@ -217,15 +223,28 @@ button {
   width: 600px;
   height: 160px;
   text-align: justify;
+  font-size : 24 px;
   color: #1a1a1a;
 }
 
 .Jim-Lynch-est-un-im {
   width: 584px;
   height: 86px;
+  font-family: Montserrat;
   font-size: 24px;
   font-weight: 200;
+  margin-top : 2em;
   color: #e8a27d;
+}
+
+.Nullam-quis-risus-eg {
+  font-family: WorkSans;
+  font-size: 20px;
+  text-align: justify;
+  color: #1a1a1a;
+}
+  text-align:justify;
+  
 }
 
 .Christine-Ferniot-- {
@@ -240,6 +259,8 @@ button {
   height: 87px;
   font-size: 24px;
   font-weight: 400;
+  line-height: 1.2em;
+  margin-top : 2em;
   color: #d9926c;
 }
 
@@ -256,7 +277,9 @@ button {
   width: 600px;
   height: 160px;
   font-family: WorkSans;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1em;
+  margin-top : 2em;
   color: #1a1a1a;
 }
 
@@ -354,6 +377,10 @@ button {
   background-color: #d9d9d9;
 }
 
+.separator {
+  width: 193.2px;
+  height: 51.8px;
+  border: none ;
 
 }
 
@@ -423,6 +450,11 @@ button {
   transition-delay: 0ms;
 }
 
+.news__thumbnail {
+  width: 372px;
+  height: 232px;
+  object-fit: contain;
+}
 
 .news__thumbnail {
   margin-bottom: 10px;
@@ -436,8 +468,25 @@ button {
 
 .news__date {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 1em;
   color: #e8a27d;
+}
+
+.-Novembre-2018 {
+  width: 353.4px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #e8a27d
+  
+}
+
+.La-rencontre-est-org {
+  width: 784.6px;
+  height: 24px;
+  font-family: WorkSans;
+  font-size: 24px;
+  
 }
 
 .news__title {
@@ -445,6 +494,15 @@ button {
   font-weight: bold;
   font-size: 2em;
   line-height: 1.4;
+
+}
+.Rencontre-avec-Tiffa {
+  width: 784.2px;
+  height: 42px;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 500;
+  color: #1a1a1a;
 }
 
 .news__text {
@@ -504,7 +562,8 @@ button {
 * single
 */
 .page-single {
-  text-align: left;
+  text-align: center;
+
 }
 
 .page-single__header {
@@ -537,13 +596,27 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 85px;
+  
 }
 
 .colonnes {
   display: flex;
-  }
+}
 
 .cover {
   min-width: 450px
+
+}
+
+.news__thumbnail {
+  width: 372px;
+  height: 232px;
+  object-fit: contain;
+}
+
+.Line {
+  width: 1200px;
+  height: 1px;
+  color : #d9d9d9;
 }
