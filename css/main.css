@@ -10,11 +10,12 @@ body {
   margin: auto;
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: WorkSans, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
   text-align: center;
-  font-size :1.5em;
+  font-size :1.7em;
+
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
@@ -28,7 +29,7 @@ li {
 }
 
 p {
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 b, strong, optgroup {
@@ -55,6 +56,7 @@ h3 {
   margin: 25px 0;
   font-size: 2.6em;
   font-weight: 200;
+  text-align: left;
 }
 
 h4 {
@@ -206,10 +208,16 @@ button {
 }
 
 .chapo {
-  font-size: 3.6em;
+  font-size: 2.8em;
   text-align : justify;
+  margin-bottom : 80px;
+  margin-left:1.5em;
 }
 
+.div.chapo {
+
+
+}
 
 .Une-nuit-le-jeune-M {
   width: 600px;
@@ -229,12 +237,20 @@ button {
 
 .Jim-Lynch-est-un-im {
   width: 584px;
-  height: 86px;
+  height: 80px;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 200;
   margin-top : 2em;
   color: #e8a27d;
+}
+
+.Christine-Ferniot-- {
+  width: 600px;
+  height: 19px;
+  font-family: "WorkSans";
+  font-size: 16px;
+  text-align: right;
 }
 
 .Nullam-quis-risus-eg {
@@ -244,23 +260,17 @@ button {
   color: #1a1a1a;
 }
   text-align:justify;
-  
-}
 
-.Christine-Ferniot-- {
-  font-family: WorkSans;
-  font-size: 16px;
-  text-align: right;
-  color: #1a1a1a;
 }
 
 .Une-histoire-poigna {
   width: 584px;
-  height: 87px;
+  height: 60px;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2em;
   margin-top : 2em;
+  text-align: right;
   color: #d9926c;
 }
 
@@ -331,25 +341,34 @@ button {
 }
 .header__content:hover {
   text-decoration: none;
+
 }
 
 .header__title {
-  font-size: 5.4em;
-  margin: 0;
+  font-size: 50px;
+  margin: 1;
 }
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
+  font-size: 30px;
   font-weight: 100;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 5px #000000;
 }
 
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 0px
 }
 
+.Rectangle {
+  width: 1440px;
+  height: 56px;
+  background-color: #1a1a1a;
+  font-size: 0px;
+}
+    
 .nav-main__item {
   display: inline-block;
 }
@@ -364,6 +383,10 @@ button {
   color: #d86324;
 }
 
+.nav-main__list container{
+
+
+}
 
 /**
 * separator
@@ -381,7 +404,18 @@ button {
   width: 193.2px;
   height: 51.8px;
   border: none ;
+}
 
+.img {
+  height :820px;
+  align-items: center;
+
+}
+.separator_croix {
+  width: 80px;
+  height: 30px;
+  margin-top : 1em;
+  border :none;
 }
 
 /**
@@ -421,14 +455,14 @@ button {
 }
 
 .honey-pot__title {
-  margin: 0;
-  font-size: 2em;
+  margin: 1;
+  font-size: 26px;
   font-weight: bold;
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
+  font-size: 22px;
   font-weight: 200;
 }
 
@@ -456,19 +490,27 @@ button {
   object-fit: contain;
 }
 
+.news1__thumbnail {
+  width: 588px;
+  height: 365px;
+  object-fit: contain;
+}
+
 .news__thumbnail {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   filter: grayscale(0);
+
 }
 
 .news__image {
   display: block;
-  width: 100%;
+
+  width: 350px;
 }
 
 .news__date {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #e8a27d;
 }
 
@@ -483,7 +525,6 @@ button {
 
 .La-rencontre-est-org {
   width: 784.6px;
-  height: 24px;
   font-family: WorkSans;
   font-size: 24px;
   
@@ -492,7 +533,7 @@ button {
 .news__title {
   margin: 0 0 15px;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.4;
 
 }
@@ -507,7 +548,7 @@ button {
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 1.4;
 }
 
@@ -521,6 +562,10 @@ button {
 .news--main {
   padding-bottom: 35px;
   border-bottom: 1px solid #b0b0c5;
+  width: 1197px;
+  height: 232px;
+}
+
 }
 .news--main .news__link {
   display: flex;
@@ -530,6 +575,7 @@ button {
   margin-bottom: 0;
   margin-right: 40px;
   min-width: 360px;
+
 }
 
 /**
@@ -562,7 +608,7 @@ button {
 * single
 */
 .page-single {
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -572,15 +618,17 @@ button {
 
 .page-single__title {
   margin: 0;
-  font-size: 5.6em;
+  font-size: 56px;
+  text-align: left;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .page-single__subtitle {
   margin: 0;
-  font-size: 3.2em;
+  font-size: 32px;
   font-weight: 200;
+  text-align: left;
 }
 
 
@@ -597,22 +645,32 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 85px;
+  font-size : 64px;
+  font-family : Montserrat;
   
 }
 
 .colonnes {
   display: flex;
+
 }
 
 .cover {
   min-width: 450px
+}
 
+.cover-large {
+  width: 560px;
+  height: 844px;
+  object-fit: contain;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.14);
 }
 
 .news__thumbnail {
-  width: 372px;
+  width: 350px;
   height: 232px;
   object-fit: contain;
+
 }
 
 .Line {
